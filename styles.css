@@ -1,0 +1,173 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background: #fdf6e3;
+  color: #333;
+}
+
+.hero {
+  background: linear-gradient(to right, #d4af37, #f6e27a);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.tagline {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.promo-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 0;
+  background: #fff8dc;
+}
+
+.products img {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 15px;
+}
+
+.description {
+  text-align: center;
+  padding: 40px 20px;
+  background: #fefae0;
+}
+
+.promo {
+  text-align: center;
+  background: #fff5cc;
+  padding: 30px;
+}
+
+.blink {
+  color: red;
+  font-size: 1.5em;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.diskon {
+  font-size: 1.4em;
+  color: darkgreen;
+  margin-top: 20px;
+}
+
+.extra {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #000;
+}
+
+.harga {
+  background: #f7e9b7;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.harga p {
+  margin: 10px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.coret {
+  text-decoration: line-through;
+  color: red;
+}
+
+.form-section {
+  background: #fff3c4;
+  padding: 40px 20px;
+}
+
+.form-section h2 {
+  text-align: center;
+}
+
+.note {
+  font-size: 0.9em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+form input,
+form textarea,
+form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: 'Montserrat';
+}
+
+form button {
+  background: green;
+  color: white;
+  padding: 12px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.main-photo {
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin: 40px auto 0 auto;
+  border-radius: 15px;
+}
+
+.testimoni {
+  background: #fdf6e3;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.testimoni h2 {
+  margin-bottom: 20px;
+}
+
+.testimoni img {
+  width: 90%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BEEWAX Pengkilap Kayu</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <h1>BEEWAX PENGKILAP KAYU</h1>
+    <p class="tagline">Ciptakan Kemewahan Pada Furnitur Anda</p>
+    <a href="#form" class="promo-button">Ambil Promo Sekarang</a>
+  </header>
+
+  <section class="products">
+    <img src="10.jpg" alt="Produk 1">
+    <img src="11.jpg" alt="Produk 2">
+    <img src="12.jpg" alt="Produk 3">
+  </section>
+
+  <section class="description">
+    <h2>Kelebihan Produk</h2>
+    <p>
+      Kilap alami yang memukau, lindungi kayu dari jamur dan serangga, <br>
+      dan berikan aroma alami yang menenangkan! Wajib punya di rumah Anda!
+    </p>
+  </section>
+
+  <section class="promo">
+    <div class="blink">PROMO HARI INI !!!<br>DISKON TERBATAS</div>
+    <h3 class="diskon">DISKON 70% UNTUK PEMBELIAN SEKARANG</h3>
+    <p class="extra">BISA COD dan GRATIS ONGKIR</p>
+  </section>
+
+  <section class="harga">
+    <p class="normal">Harga Normal <span class="coret">Rp. 230.000</span></p>
+    <p>Beli 1 Rp 79.000</p>
+    <p>Beli 2 Rp 99.000</p>
+    <p>Beli 3 Rp 159.000</p>
+  </section>
+
+  <section class="form-section" id="form">
+    <h2>FORMULIR PEMESANAN</h2>
+    <p class="note">Pastikan alamat Lengkap dan benar ya kak, karena kalau tidak lengkap, barang tidak akan kami kirim</p>
+    <form id="orderForm">
+      <label>Nama:
+        <input type="text" name="nama" placeholder="Contoh: Andika">
+      </label>
+      <label>Nomor WA:
+        <input type="text" name="wa" placeholder="Contoh: 08588080xxx">
+      </label>
+      <label>Kecamatan:
+        <input type="text" name="kecamatan" placeholder="Contoh: Sidoarjo">
+      </label>
+      <label>Alamat Lengkap:
+        <textarea name="alamat" placeholder="Contoh: Dusun xxxx Kelurahan xxxx Kecamatan xxxx Provinsi Jawa Timur"></textarea>
+        <label>Metode Pembayaran:
+  <select name="metode">
+    <option value="COD">COD (Bayar di Tempat)</option>
+    <option value="Transfer">Transfer</option>
+  </select>
+</label>
+      </label>
+      <label>Jumlah:
+        <select name="jumlah">
+          <option value="1">BELI 1 - 79.000</option>
+          <option value="2">BELI 2 - 99.000</option>
+          <option value="3">BELI 3 - 159.000</option>
+        </select>
+      </label>
+      <button type="button" onclick="kirimPesan()">Pesan Sekarang</button>
+    </form>
+    <img src="99.jpg" class="main-photo" alt="Foto utama">
+  </section>
+
+  <section class="testimoni">
+    <h2>TESTIMONI</h2>
+    <img src="13.jpg" alt="Testimoni 1">
+    <img src="14.jpg" alt="Testimoni 2">
+    <img src="15.jpg" alt="Testimoni 3">
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
